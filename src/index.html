@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="head-big-text">סטטוס קליטת ספקים במרכבה</div>
+      <form class="main-form">
+        <div class="main-form__input">
+          <input type="text" placeholder="יש להקליד שם או מספר ספק" />
+        </div>
+        <button class="main-form__button">
+          <img
+            class="main-form__button-image"
+            src="./images/search.png"
+            alt="search"
+          />
+          <div class="main-form__button-text">חיפוש</div>
+        </button>
+      </form>
+      <div class="table">
+        <div class="table-header">
+          <div class="table-header__text">טבלת ספקים</div>
+          <div class="filter">
+            <div class="filter__text">:סינון לפי סטטוס</div>
+            <div class="filter__dropdown">
+              <button class="filter__dropdown-button">
+                <div class="filter__dropdown-button-text">בתהליך הקמה</div>
+                <div class="filter__dropdown-button-image">
+                  <img src="./images/dropdown-arrow.png" alt="dropdown-menu" />
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="sort">
+          <div class="sort-item">
+            <div class="sort-item__text">מספר ספק</div>
+            <button class="sort-item__switch">
+              <img src="./images/sort-switcher.png" alt="sort" />
+            </button>
+          </div>
+          <div class="sort-item">
+            <div class="sort-item__text">שם ספק</div>
+            <button class="sort-item__switch">
+              <img src="./images/sort-switcher.png" alt="sort" />
+            </button>
+          </div>
+          <div class="sort-item">
+            <div class="sort-item__text">מרכבה ID</div>
+            <button class="sort-item__switch">
+              <img src="./images/sort-switcher.png" alt="sort" />
+            </button>
+          </div>
+          <div class="sort-item">
+            <div class="sort-item__text">סטטוס</div>
+            <button class="sort-item__switch">
+              <img src="./images/sort-switcher.png" alt="sort" />
+            </button>
+          </div>
+          <div class="sort-item">
+            <div class="sort-item__text">תאריך עדכון</div>
+            <button class="sort-item__switch">
+              <img src="./images/sort-switcher.png" alt="sort" />
+            </button>
+          </div>
+        </div>
+        <div class="table-item-wrapper">
+          <div class="table-item">
+            <div class="table-item__text">02222222</div>
+            <div class="table-item__text table-item-align-text">
+              לאונרדו דוינצי
+            </div>
+            <div class="table-item__text table-item-align-text">02222222</div>
+            <div class="table-item__text table-item-align-text">
+              ממתין לאישור
+            </div>
+            <div class="table-item__text">20/12/2021</div>
+            <div class="table-button-wrapper">
+              <button class="table-item__button">פרטים נוספים</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

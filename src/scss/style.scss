@@ -1,0 +1,198 @@
+@import "global/fonts";
+@import "global/variables";
+@import "global/items";
+@import "global/reset";
+@import "global/typography";
+@import "global/ui";
+
+body{
+    background: url('../images/bg-main.png'), no-repeat;
+    background-position: 0 -6px;
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Heebo', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.head-big-text{
+    padding-top: 67px;
+    color:#fff;
+    font-size: 56px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.main-form{
+    height: 167px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.16);
+    display: flex;
+    padding: 59px 77px 61px 61px;
+    justify-content: space-between;
+    margin-bottom: 29px;
+
+    &__input{
+        color: #3d3d4a;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 43px;
+        border-bottom: 1px solid #cccccc;
+        width: 79%;
+    }
+
+    &__input input{
+        color: #3d3d4a;
+        width: 100%;
+    }
+
+    &__button{
+        padding-left: 17px;
+        display: flex;
+        justify-content:center;
+        width: 174px;
+        height: 47px;
+        background-color: #e88927;
+        border-radius: 23px;
+        align-items: center;
+
+        &-image{
+            width: 40px;
+            margin-bottom: 5px;
+        }  
+        &-text{
+            font-size: 20px;
+            font-weight: 500;
+            color:#fff; 
+        }
+    }
+
+}
+
+.table{
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.16);
+    height: 100vh;
+    padding: 36px 37px 30px 27px;
+
+    &-header{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        margin-bottom: 30px;
+
+        &__text{
+            color: #e98824;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 43px;
+        }
+
+        .filter{
+            display: flex;
+            align-items: center;
+
+            &__text{
+                color: #2b337a;
+                font-family: Heebo;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            
+            &__dropdown{
+                display: flex;
+                width: 202px;
+                border: 1px solid #2b337a;    
+                color: #3d3d4a;
+                font-size: 16px;
+                font-weight: 400;
+                margin-right: 6px;
+
+                &-button{
+                    padding: 11px 18px;
+                    display: flex;
+                    width: 100%;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+
+    .sort{
+        display: flex;
+        background-color: rgba(43, 49, 122,0.05);
+        padding:5px 19px 9px;
+        justify-content:space-between;
+        padding-left: 20%;
+        border-top:1px solid#dfe2e3;
+        border-bottom: 1px solid #dfe2e3;
+        
+
+        &-item{
+            display: flex;
+            align-items: center;
+
+            &__text{
+                color: #707070;
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+            &__switch{
+                padding-right: 7px;
+                padding-left: 7px;
+            }
+        }
+    }
+
+    &-item-wrapper{
+        border-bottom: 1px solid #dfe2e3;
+        padding: 0px 19px;
+    }
+
+    &-item{
+        height: 57px;
+        background-color: #fff;
+        padding-top: 8px;
+        
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        
+        &-align-text{
+            padding-right: 15px;
+        }
+        &__text{
+            color: #3d3d4a;
+            font-size: 18px;
+            font-weight: 400;
+            width: 22%;
+        }
+
+        &-button-wrapper{
+            width: 20%;
+        }
+
+        &__button{
+            width: 116px;
+            height: 33px;
+            border-radius: 50px;
+            border-top-left-radius: 20px;
+            background-color: #18ade4;
+            padding:4px 9px;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 500;
+            margin-left: 18px;
+        }
+    }
+}
