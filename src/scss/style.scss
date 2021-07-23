@@ -80,7 +80,6 @@ body{
 .table{
     background-color: #fff;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.16);
-    height: 100vh;
     padding: 36px 37px 30px 27px;
 
     &-header{
@@ -157,12 +156,13 @@ body{
     &-item-wrapper{
         border-bottom: 1px solid #dfe2e3;
         padding: 0px 19px;
+       
     }
 
     &-item{
-        height: 57px;
+        height: 55px;
         background-color: #fff;
-        padding-top: 8px;
+        // padding-top: 10px;
         
         display: flex;
         align-items: center;
@@ -194,5 +194,58 @@ body{
             font-weight: 500;
             margin-left: 18px;
         }
+    }
+
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 29px;
+    margin-top: 29px;
+
+    &__nav{
+        padding: 6px 19px;
+        color: #6c757d;
+        font-family:"Arial", sans-serif ;
+        font-size: 20px;
+        font-weight: 400;
+        border: 1px solid #dee2e6;
+    }
+
+    &__nav--active{
+        color: #007bff;
+    }
+
+    &__nav:first-child{
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-left: none;
+    }
+
+    &__nav:last-child{
+        border-right: none;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    &__page{
+        font-family:"Arial", sans-serif ;
+        border: 1px solid #dee2e6;
+        padding: 8px 18px;
+        color: #007bff;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    &__page--active{
+        color:#fff;
+        background-color: #007bff;
+        border: none;
+    }
+
+    &__page:nth-child(3){
+        border-right: none;
+        border-left: none;
     }
 }
