@@ -1,8 +1,8 @@
-install packages  
+install packages::
 npm install
 
-developer mode
+developer mode::
 gulp
 
-make a build
+make a build::
 gulp build

@@ -41,6 +41,15 @@
                   <img src="./images/dropdown-arrow.png" alt="dropdown-menu" />
                 </div>
               </button>
+              <div class="dropdown-content">
+                <div class="dropdown__item dropdown__item--active">
+                  ממתין למרכבה
+                </div>
+                <div class="dropdown__item">ממתין למרכבה</div>
+                <div class="dropdown__item">ממתין למרכבה</div>
+                <div class="dropdown__item">ממתין למרכבה</div>
+                <div class="dropdown__item">ממתין למרכבה</div>
+              </div>
             </div>
           </div>
         </div>
@@ -76,6 +85,7 @@
             </button>
           </div>
         </div>
+        @@include('./include/table-item.html')
         <div class="table-item-wrapper">
           <div class="table-item">
             <div class="table-item__text">02222222</div>
@@ -84,12 +94,29 @@
             </div>
             <div class="table-item__text table-item-align-text">02222222</div>
             <div class="table-item__text table-item-align-text">
-              ממתין לאישור
+              <div class="table-item__text-message">שגוי</div>
+              <img
+                class="message-icon"
+                src="./images/message-icon.png"
+                alt="massage"
+              />
             </div>
             <div class="table-item__text">20/12/2021</div>
             <div class="table-button-wrapper">
               <button class="table-item__button">פרטים נוספים</button>
             </div>
+          </div>
+        </div>
+        <div class="error-status-wrapper">
+          <div class="error-status">
+            לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולהע צופעט
+            למרקוח איבן איף, ברומץ כלרשט מיחוצים. קלאצי סחטיר בלובק. תצטנפל
+            בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם
+            גדדיש. קוויז דומור ליאמום בלינך רוגצה. לפמעט מוסן מנת. צש בליא,
+            מנסוטו צמלח לביקו ננבי, צמוקו בלוקריה שיצמה ברורק. להאמית קרהשק
+            סכעיט דז מא, מנכם למטכין נשואי מנורך. גולר מונפרר סוברט לורם שבצק
+            יהול, לכנוץ בעריר גק ליץ, נולום ארווס סאפיאן - פוסיליס קוויס,
+            אקווזמן קוואזי
           </div>
         </div>
         @@include('./include/table-item.html')
@@ -111,22 +138,15 @@
         @@include('./include/table-item.html')
         @@include('./include/table-item.html')
         @@include('./include/table-item.html')
-        @@include('./include/table-item.html')
 
         <div class="pagination">
-          <button class="pagination__nav pagination__nav--active">
-            הבא
-          </button>
+          <button class="pagination__nav pagination__nav--active">הבא</button>
           <button class="pagination__page">3</button>
           <button class="pagination__page">2</button>
           <button class="pagination__page pagination__page--active">1</button>
-          <button class="pagination__nav ">
-            הקודם
-          </button>
-
+          <button class="pagination__nav">הקודם</button>
         </div>
       </div>
     </div>
   </body>
 </html>
-
