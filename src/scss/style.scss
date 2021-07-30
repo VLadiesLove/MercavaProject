@@ -10,6 +10,7 @@ body{
     background-position: 0 -6px;
     background-size: cover;
     width: 100vw;
+    max-width: 100vw;
     min-height: 100vh;
     font-family: 'Heebo', sans-serif;
 }
@@ -346,4 +347,186 @@ body{
     background-color: #fdf3f4;
     z-index: -1;
 
+}
+
+
+//// form readonly page
+
+.form-readonly{
+    margin-bottom: 500px;
+}
+
+.form-readonly .head-big-text{
+    margin-bottom:5px;
+}
+
+.directory{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 3px;
+    margin-bottom: 17px;
+
+    &__text{
+        color: #fff;
+        font-size: 24px;
+        font-weight: 400;
+        // line-height: 43px;
+    }
+
+    &__image{
+        width: 10px;
+        margin-right: 12px;
+    }
+}
+
+.form-readonly .table{
+    padding-top:53px;
+    padding-right: 63px;
+    padding-left: 64px;
+}
+
+.inputs-area{
+    margin-top: 72px;
+}
+
+.provider{
+    display: flex;
+    padding-right: 5px;
+    margin-bottom: 67px;
+
+    &__label{
+        padding-right: 3px;
+        opacity: 0.61;
+        color: #3d3d4a;
+        font-family: "Rubik",sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    &__name{
+        width: 56%;
+        margin-left: 50px;
+        
+    }
+
+    &__name input{
+        height: 52px;
+        background-color: #ebf0f3;
+        color: #3d3d4a;
+        font-family: "Rubik",sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+    }
+
+    &__id{
+        width: 17.5%;
+        margin-left: 50px;
+    }
+
+    &__id input{
+        padding-right: 3px;
+        height: 52px;
+        background-color: #ebf0f3;
+        color: #3d3d4a;
+        font-family: "Rubik",sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+    }
+
+    &__status{
+        width: 17.5%;
+    }
+
+    &__status input{
+        padding-right: 3px;
+        height: 52px;
+        background-color: #ebf0f3;
+        color: #3d3d4a;
+        font-family: "Rubik",sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+.inputs-header{
+    border-bottom: 1px solid #707070;
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+    &__text{
+        padding-right: 4px;
+        color: #e88927;
+        font-family: 'Rubik',sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+
+    }
+}
+
+.contacts{
+    display: flex;
+    margin-bottom: 58px;
+
+    &__email{
+        width: 34%;
+    }
+
+    &__email input{
+        padding-right: 3px;
+        height: 52px;
+        background-color: #ebf0f3;
+        color: #3d3d4a;
+        font-family: "Rubik",sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+    }
+
+    &__item{
+        width: 17.5%;
+        margin-right: 50px;
+    }
+
+    &__item input{
+        padding-right: 3px;
+        height: 52px;
+        background-color: #ebf0f3;
+        color: #3d3d4a;
+        font-family: "Rubik",sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+.adress{
+    margin-bottom: 63px;
+
+    & input{
+        padding-right: 3px;
+        height: 52px;
+        background-color: #ebf0f3;
+        color: #3d3d4a;
+        font-family: "Rubik",sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        width: 55.7%;
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+.margin-top-sub-10px{
+    margin-top: -10px;
+}
+
+.margin-bottom-30px{
+    margin-bottom: 30px;
 }
